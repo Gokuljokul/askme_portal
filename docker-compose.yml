@@ -1,0 +1,11 @@
+version: '3.9'
+
+services:
+
+  askme_portal:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: gokulsouthern/askme_portal:latest
+    ports:
+      - 8084
